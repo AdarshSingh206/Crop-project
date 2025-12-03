@@ -2,3 +2,43 @@
 body{
   background: #00000096;
 }
+
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/0.1/src/assets/fonts/Coolvetica\ Rg.otf') format('opentype');
+   
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MyCustomFont2';
+  src: url('/src/assets/fonts/Monotype-Corsiva-Bold-Italic.ttf') format('opentype');
+   
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MyCustomFont3';
+  src: url('/src/assets/fonts/Monotype-Corsiva-Regular.ttf') format('opentype');
+   
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MyCustomFont4';
+  src: url('/0.1/src/assets/fonts/Coolvetica\ Rg\ Cram.otf') format('opentype');
+   
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MyCustomFont5';
+  src: url('/0.1/src/assets/fonts/Coolvetica\ Rg\ It.otf') format('opentype');
+   
+  font-weight: normal;
+  font-style: normal;
+}
