@@ -2,24 +2,36 @@ import React from 'react'
 import Video from '../component/home/video.jsx'
 import Hometext from '../component/home/hometext.jsx'
 import Cards from '../component/home/Cards.jsx'
+import Navbar from '../component/navbar/navbar.jsx'
+import Scrollsections from '../component/home/ScrollSections.jsx'
 
 const home = () => {
   return (
+
+  
     <div className="w-screen text-white overflow-x-hidden bg-white">
+      
       {/* HERO SECTION — Full video + text */}
+    
       <section className="relative h-screen w-screen">
         {/* Background video */}
         <Video />
+         <Navbar/>
 
         {/* Text over video */}
         <div className="absolute inset-0 flex flex-col justify-center items-center text-center">
           <Hometext />
+        
+          
         </div>
+        
       </section>
+
+     
 
       {/* Green Divider Line */}
       <div className="h-[3px] w-full bg-gradient-to-r from-green-500 via-lime-500 to-emerald-600" />
-
+       
       {/* FEATURE CARDS SECTION */}
       <section className="flex flex-col justify-center items-center py-16 bg-[#f9fdf9]">
         <h2 className="text-4xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-green-700 via-lime-600 to-green-500">
@@ -31,6 +43,13 @@ const home = () => {
       {/* Divider */}
       <div className="h-[2px] w-2/3 mx-auto bg-gradient-to-r from-lime-400 via-green-500 to-lime-400 rounded-full my-10" />
 
+      {/* SCROLL SECTIONS */}
+      <div>
+        <Scrollsections />
+
+
+
+      </div>
       {/* BUSINESS CLAIM SECTION */}
       <section className="flex flex-col justify-center items-center text-center bg-white px-8 py-20">
         <h2 className="text-5xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-green-700 via-lime-600 to-green-500 drop-shadow-sm">
